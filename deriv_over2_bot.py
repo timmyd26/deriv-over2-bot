@@ -18,13 +18,13 @@ MARKETS = {
     "R_100": "Volatility 100",
 }
 
-MAX_TICKS = 500
+MAX_TICKS = 200
 COOLDOWN_SECONDS = 60
 
 RULES = [
-    {"digit": 0, "min": 8.5, "max": 9.6},
-    {"digit": 1, "min": 8.5, "max": 9.6},
-    {"digit": 2, "min": 10.0, "max": 11.0},
+    {"digit": 0, "min": 8.5, "max": 10.0},
+    {"digit": 1, "min": 8.5, "max":10.0},
+    {"digit": 2, "min": 10.0, "max": 10.9},
 ]
 
 
